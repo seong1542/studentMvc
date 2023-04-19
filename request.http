@@ -1,0 +1,47 @@
+### 등록
+POST http://localhost:8080/api/students
+Content-Type: application/json
+
+{
+  "id": "marco",
+  "name": "marco",
+  "gender": "M",
+  "age" : 25
+}
+### 조회
+GET http://localhost:8080/api/marco
+Content-Type: application/json
+
+### 수정
+PUT http://localhost:8080/api/marco
+Content-Type: application/json
+
+{
+  "name": "마르코",
+  "gender": "M",
+  "age": 25
+}
+
+### 등록
+POST http://localhost:8080/api/students?media=xml
+Content-Type: application/json
+
+{
+  "id": "marco",
+  "name": "marco",
+  "gender": "M",
+  "age" : 25
+}
+### 조회
+GET http://localhost:8080/api/marco?media=xml
+Content-Type: application/json
+
+### 수정
+PUT http://localhost:8080/api/marco?media=xml
+Content-Type: application/json
+
+{
+  "name": "마르코",
+  "gender": "M",
+  "age": 25
+}
